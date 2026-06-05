@@ -102,18 +102,14 @@ Social Media channel resulted in the highest CAC wasted on churned customers (~�
 ```
 RetainIQ-Churn-Intelligence/
 │
-├── data/
-│   └── retainiq_raw.csv          # 7,500 synthetic customer records
-│
-├── python/
-│   └── generate_retainiq.py      # Dataset generation script
-│
-├── sql/
-│   └── retainiq_analysis.sql     # Full SQL script (11 steps)
-│
-├── powerbi/
-│   └── RetainIQ_Dashboard.pbix   # Power BI dashboard file
-│
+├── retainiq_raw.csv          # 7,500 synthetic customer records
+├── generate_retainiq.py      # Dataset generation script
+├── retainiq_analysis.sql     # Full SQL script (11 steps)
+├── RetainIQ_Dashboard.pbix   # Power BI dashboard file
+├── page1.png                 # Executive Overview
+├── page2.png                 # Segment Deep Dive
+├── page3.png                 # Cohort & Channel Analysis
+├── page4.png                 # Retention Strategy
 └── README.md
 ```
 
